@@ -113,3 +113,8 @@ console.log(name, isAlive, hasJetPack, eyes, eyeColor, hairColor, legs, arms, ha
     a) write an if condition checking if the jet pack is enabled, if true the droid can go outside if false the droid
        cannot go outside, console log the correct log based on that condition.
 */
+if(hasJetPack === true){
+  console.log("Jetpack is enabled!")
+}else{
+  console.log("Jetpack is not enabled")
+};
